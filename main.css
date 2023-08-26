@@ -7,8 +7,8 @@ html{
     font-size: 62.5%;
 }
 body{
-    /* background-color: #23252C; */
-    font-family: 'Inter', sans-serif;
+    background-color: antiquewhite; 
+    font-family: 'Ubuntu', sans-serif;
 }
 a{
     all: unset;
@@ -38,7 +38,7 @@ a{
 
 /* body styles */
 .bcard__body{
-    background-color: grey;
+    background-color: darkslategrey;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +60,7 @@ a{
 }
 
 .bcard__name{
-    color: beige;
+    color: bisque;
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 30px;
@@ -68,7 +68,7 @@ a{
 }
 
 .bcard__title{
-    color: hotpink;
+    color: rgb(214, 196, 97);
     font-weight: 400;
     font-size: 1.28rem;
 }
@@ -89,7 +89,7 @@ a{
     font-size: 1.4rem;
 }
 .bcard__btn--email{
-    background-color: antiquewhite;
+    background-color: bisque;
     border: 1 px solid #D1D5DB;
     box-shadow: 0px 1 px 2 px rgba(0, 0, 0, 0.05);
     border-radius:  6px;
@@ -97,8 +97,9 @@ a{
 
 .bcard__btn--linkedin{
     background-color: #5093E2;
-    color: #FFFFFF;
+    color: bisque;
     box-shadow: 0px 1 px 2 px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
 }
 
 .bcard__text-wrapper{
@@ -109,11 +110,11 @@ a{
     margin-top: 1rem;
 }
 .bcard__heading{
-    color: #F5F5F5;
+    color: bisque;
     font-size: 1.6rem;
 }
 .bcard__text{
-    color: black;
+    color: bisque;
     font-size: 1.08rem;
 }
 
@@ -121,7 +122,7 @@ a{
 
 .bcard__footer{
     height: 6.5rem;
-    background-color: grey;
+    background-color: darkslategrey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +130,7 @@ a{
 }
 
 .bcard__footer-icon{
-    background-color: wheat;
+    background-color: bisque;
     padding: 0.2em;
     margin-right: 2.4rem;
     border-radius: 5px;
