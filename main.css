@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: antiquewhite; 
+    background-color: lightcyan; 
     font-family: 'Ubuntu', sans-serif;
 }
 a{
@@ -143,9 +143,9 @@ a{
 }
 
 @media (max-width:750px){
-    /* .main {
+     .main {
         height: auto;
-    } */
+    } 
 }
 
 
