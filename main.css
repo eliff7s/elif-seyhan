@@ -74,11 +74,16 @@ a{
 }
 
 .bcard__btn-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-flex;
 }
+
+.bcard__btn--email:hover {opacity: 1;}
+.bcard__btn--linkedin:hover {opacity: 1;}
+
 .bcard__btn{
     min-width: 11.5rem;
     height: 3.4rem;
@@ -93,13 +98,21 @@ a{
     border: 1 px solid #D1D5DB;
     box-shadow: 0px 1 px 2 px rgba(0, 0, 0, 0.05);
     border-radius:  6px;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
 }
 
 .bcard__btn--linkedin{
     background-color: #5093E2;
-    color: bisque;
+    border: 1 px solid #D1D5DB;
     box-shadow: 0px 1 px 2 px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
 }
 
 .bcard__text-wrapper{
